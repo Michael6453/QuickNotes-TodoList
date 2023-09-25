@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+.App {
+  color: lightpink;
+  text-align: center;
+  background-color: #462941;
+  height: 100vh;
+}
+.App h2 {
+  font-weight: 600;
+  padding-top: 2%;
+}
+.sub-head {
+  font-family: cursive;
+}
+.todo {
+width: 90%;
+margin-left: 5%;
+margin-right: 5%;
+margin-top: 4%;
+}
+.todoform {
+padding-bottom: 3%;
+background-color: #462941;
+border-radius: 15px;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+.todo-input {
+  border: none;
+  border-bottom: 2px solid lightpink;
+  font-size: 17px;
+  width: 50%;
+  outline: none;
+  color: lightpink;
+  background-color: #462941;
+}
+.todo-btn {
+  font-size: 18px;
+  width: 15%;
+  background-color: lightpink;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  color: #462941;
+  padding: 1% 2%;
+}
+.Todo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #462941;
+  background-color: lightpink;
+  width: 70%;
+margin-left: 15%;
+margin-right: 15%;
+font-size: 17px;
+padding-bottom: 7px;
+}
+.Todo p {
+  padding-left: 5px;
+  font-size: 17px;
+}
+.edt-icn {
+padding-right: 15px;
+}
+.del-icn {
+  padding-right: 10px;
+  }
+@media screen and (min-width: 475px) {
+  
+}
+@media screen and (min-width: 640px) {
+  
+}
+@media screen and (max-width: 768px) {
+  .todo-btn {
+  width: 10%;
+  padding: 1% 2%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  
+}
+@media screen and (min-width: 1280px) {
+  
+}
+@media screen and (min-width: 1536px) {
+  
+}
